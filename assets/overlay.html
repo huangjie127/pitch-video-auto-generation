@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<style>
+  /* Typography overlay — rendered by headless Chrome/Edge to a transparent PNG,
+     then composited over AI footage by ffmpeg. Same type system as the
+     apple-launch-video design language. */
+  :root {
+    --fg:__FG__; --muted:__MUTED__; --accent:__ACCENT__;
+    --shadow:__SHADOW__;
+    --font:-apple-system,BlinkMacSystemFont,"SF Pro Display","Segoe UI","PingFang SC","Microsoft YaHei",Helvetica,Arial,sans-serif;
+  }
+  * { margin:0; padding:0; box-sizing:border-box; }
+  html,body { width:100%; height:100%; background:transparent; }
+  body {
+    font-family:var(--font); color:var(--fg);
+    -webkit-font-smoothing:antialiased; text-rendering:optimizeLegibility;
+    display:flex; align-items:__VALIGN__; justify-content:center;
+    padding:__PADTOP__ 7vw __PADBOT__; overflow:hidden;
+  }
+  .inner { width:100%; max-width:1120px; text-align:center; text-shadow:var(--shadow); }
+  .em { color:var(--accent); }
+  .kicker { font-size:30px; font-weight:600; color:var(--accent); margin-bottom:.6em; letter-spacing:.01em; }
+  .hero-title { font-size:150px; font-weight:700; line-height:1; letter-spacing:-.03em; }
+  .hero-sub { font-size:40px; font-weight:500; margin-top:.55em; color:var(--muted); letter-spacing:-.01em; }
+  .statement { font-size:72px; font-weight:700; line-height:1.12; letter-spacing:-.025em; }
+  .num { font-size:230px; font-weight:700; line-height:.9; letter-spacing:-.04em; font-feature-settings:"tnum"; }
+  .num .unit { font-size:.26em; font-weight:600; margin-left:.1em; color:var(--muted); }
+  .num-label { font-size:38px; font-weight:600; margin-top:.25em; letter-spacing:-.01em; }
+  .closing-title { font-size:120px; font-weight:700; line-height:1; letter-spacing:-.03em; }
+  .tagline { font-size:38px; font-weight:500; margin-top:.6em; color:var(--muted); letter-spacing:-.01em; }
+  .cta { font-size:26px; font-weight:500; margin-top:1.3em; color:var(--muted); letter-spacing:.01em; }
+</style>
+</head>
+<body>
+  <div class="inner">__CONTENT__</div>
+</body>
+</html>
