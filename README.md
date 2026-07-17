@@ -4,10 +4,10 @@ A Claude Code / Claude Agent skill that turns a **product website URL into a fin
 
 给一个产品网址,产出一条 WWDC 风格的 30 秒成片。
 
-| Dark film (Atlas Cloud, painterly) | Light film (Figma, paper & acrylic) |
+| Dark film (Atlas Cloud, liquid glass) | Light film (Figma, paper & acrylic) |
 |---|---|
-| ![dark](docs/demo-atlas-reveal.png) | ![light](docs/demo-light-keyframe.png) |
-| ![belief](docs/demo-atlas-belief.png) | ![keyframe](docs/demo-dark-keyframe.png) |
+| ![atlas hero](docs/demo-atlas-1.png) | ![figma hero](docs/demo-figma-1.png) |
+| ![atlas day0](docs/demo-atlas-2.png) | ![figma scale](docs/demo-figma-2.png) |
 
 ## How it works
 
@@ -36,10 +36,14 @@ The key ideas:
 ## Install
 
 ```bash
-git clone https://github.com/<you>/product-pitch-video.git ~/.claude/skills/product-pitch-video
+git clone https://github.com/huangjie127/pitch-video-auto-generation.git ~/.claude/skills/product-pitch-video
+node ~/.claude/skills/product-pitch-video/scripts/doctor.mjs   # verify ffmpeg / browser / API key
 ```
 
 Then in Claude Code: *"给这个产品做一条 pitch 视频: https://your-product.com"* or *"make a pitch video for https://your-product.com"*.
+
+> All scripts are zero-dependency Node ESM — no `npm install`. The only
+> external requirements are the four things `doctor.mjs` checks.
 
 ## Cost
 
