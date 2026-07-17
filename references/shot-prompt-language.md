@@ -38,10 +38,20 @@ the trademark straight onto your footage (field-tested: "in the style of an
 Apple product film" produced a literal Apple logo on the hero object).
 Describe the aesthetic, not the company. Video prompts inherit the same rule.
 
-The palette rule is absolute: **one accent color for the entire film** (the
-brand accent), everything else black/white/neutral glass. If a scene concept
-needs "different things" (modalities, sources, options), differentiate by
-form or brightness, never by hue.
+The palette rule: **one accent color for the entire film** (the brand accent),
+everything else black/white/neutral glass. If a scene concept needs "different
+things" (modalities, sources, options), differentiate by form or brightness,
+never by hue.
+
+**The one exception — palette-identity brands.** When the brand's most
+recognizable asset IS a multi-color palette (Figma's five logo colors,
+Google's four, Slack's quartet), a single-accent film erases the brand: the
+viewer can't tell whose film it is. Then the brand palette becomes the
+*content*: paint the hero objects in the exact brand colors (name the hexes),
+keep EVERYTHING else neutral (white/ink/clear glass), and never add colors
+beyond the brand set. The discipline shifts from "one color" to "only their
+colors". A closing beat that assembles the colored objects into an
+arrangement *reminiscent* of the logo is the strongest memory hook.
 
 **Brand-temperament fusion.** The restraint anchor is the base, not a cage.
 The page screenshot (snap_page.mjs) tells you the brand's visual temperament —

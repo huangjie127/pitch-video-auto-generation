@@ -64,8 +64,10 @@ Individual stages: `gen_image.mjs`, `gen_video.mjs`, `gen_music.mjs`, `overlay.m
 ```
 SKILL.md                     the director's brief (workflow, schema, quality bar)
 references/
-  pitch-script-guide.md      Apple's five moves, the URL→belief derivation protocol
+  pitch-script-guide.md      Apple's five moves, the URL→belief derivation protocol, tempo guide
   shot-prompt-language.md    keyframe/motion prompt language, restraint anchor, field-tested lessons
+  brand-archetypes.md        anchor recipes for 8 brand types (dev-infra, palette-identity
+                             creative, hardware, luxury, fintech, wellness, entertainment, B2B)
   atlas-api.md               verified API ground truth (endpoints, models, pricing)
 scripts/                     zero-dep Node ESM: pipeline, generators, overlay, stitch
 assets/overlay.html          the typography system (dark/light, CJK-ready)

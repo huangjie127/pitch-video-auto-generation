@@ -94,7 +94,11 @@ still works for quick drafts — just omit `keyframes` from pitch.json.
    on — those end-states become the keyframes.
 
 3. **Design the keyframe chain + motion.** Read
-   `references/shot-prompt-language.md`. N shots need N+1 keyframes where
+   `references/shot-prompt-language.md`, and pick the brand's archetype from
+   `references/brand-archetypes.md` (dev-infra / palette-identity creative /
+   hardware / luxury / fintech / wellness / entertainment / B2B SaaS) — it
+   gives the world, texture words, palette policy, tempo and metaphor
+   vocabulary as a starting recipe. N shots need N+1 keyframes where
    K_i = end of shot i = start of shot i+1, all featuring one continuous star
    object. K0's prompt carries the full style; later keyframes describe only
    the delta from the previous frame. Each shot gets a `motion_prompt` (pure

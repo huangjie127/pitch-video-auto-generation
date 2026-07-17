@@ -56,6 +56,14 @@ that a competitor couldn't open with the same line.
 | 5 | Testimony | `number` | the figure + its human consequence | scale reveal |
 | 6 | Loop close | `closing` | name + belief echoed as tagline + quiet fact | the object at rest (signature close) |
 
+**Tempo.** 5s beats read stately — right for luxury-dark reveals. Product/tool
+animations usually want *silky speed*: 4s beats (the video model's minimum)
+with tighter overlay timing (`in: 0.8, out: ~3.6`), motion prompts written
+with "swift, silky, snappy easing, quick precise moves with soft landings"
+instead of "slow, calm", and music at 110–125bpm. Keep the hero and closing
+beats at 5s — the name still deserves to breathe. Match tempo to the brand's
+energy, not to a default.
+
 Worked example (Atlas Cloud):
 - Facts: 300+ models / one OpenAI-compatible key / day-0 access / 99.99%.
 - Removals: no more per-vendor accounts & SDKs; no more waiting for access;
